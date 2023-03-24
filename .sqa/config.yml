@@ -5,7 +5,7 @@ config:
       branch: release/1.7.9
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/SeisSol/SeisSol:
-      branch: master
+      branch: cff
       repo: https://github.com/SeisSol/SeisSol
 environment:
   JPL_DOCKERFORCEBUILD: enabled
@@ -15,52 +15,58 @@ sqa_criteria:
     repos:
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-myrtle-gopher.sh
-        container: qc.acc_smelly-bistre-lynx
+        - /usr/bin/env sh .sqa/script.wheezy-jade-bat.sh
+        container: qc.acc_surly-peach-angora
   QC.Doc:
     repos:
       github.com/SeisSol/SeisSol find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-firebrick-hyrax.sh
-        container: qc.doc_shaggy-aqua-discus
+        - /usr/bin/env sh .sqa/script.grumpy-firebrick-greyhound.sh
+        container: qc.doc_cozy-amber-swan
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-green-malamute.sh
-        container: qc.doc_surly-smalt-zebra
+        - /usr/bin/env sh .sqa/script.cloudy-pink-slug.sh
+        container: qc.doc_snippy-violet-catfish
       github.com/SeisSol/SeisSol markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-celadon-flounder.sh
-        container: qc.doc_flabby-rust-meerkat
+        - /usr/bin/env sh .sqa/script.pasty-red-manatee.sh
+        container: qc.doc_skinny-sapphire-saola
       github.com/SeisSol/SeisSol restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-amethyst-hyrax.sh
-        container: qc.doc_clammy-white-dachshund
+        - /usr/bin/env sh .sqa/script.leaky-russet-termite.sh
+        container: qc.doc_gloppy-harlequin-wombat
   QC.Lic:
     repos:
       github.com/SeisSol/SeisSol licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-chocolate-crane.sh
-        container: qc.lic_cozy-smalt-wrasse
+        - /usr/bin/env sh .sqa/script.freaky-beige-bonobo.sh
+        container: qc.lic_frumpy-vermilion-akbash
+  QC.Met:
+    repos:
+      github.com/SeisSol/SeisSol cff-converter-python:
+        commands:
+        - /usr/bin/env sh .sqa/script.leaky-malachite-husky.sh
+        container: qc.met_gloppy-vermilion-lemming
   QC.Sec:
     repos:
       github.com/SeisSol/SeisSol bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-corn-mayfly.sh
-        container: qc.sec_pretty-mustard-tamarin
+        - /usr/bin/env sh .sqa/script.queasy-jade-caterpillar.sh
+        container: qc.sec_ready-yellow-axolotl
   QC.Sty:
     repos:
       github.com/SeisSol/SeisSol flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-salmon-horse.sh
-        container: qc.sty_snoopy-tan-sparrow
+        - /usr/bin/env sh .sqa/script.bumpy-firebrick-cockroach.sh
+        container: qc.sty_sloppy-cerulean-affenpinscher
       github.com/SeisSol/SeisSol jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-viridian-albatross.sh
-        container: qc.sty_muzzy-tan-akbash
+        - /usr/bin/env sh .sqa/script.nerdy-emerald-fox.sh
+        container: qc.sty_wimpy-cerulean-camel
   QC.Ver:
     repos:
       github.com/SeisSol/SeisSol get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-fuchsia-kangaroo.sh
-        container: qc.ver_scummy-crimson-wrasse
+        - /usr/bin/env sh .sqa/script.goopy-xanthic-sheepdog.sh
+        container: qc.ver_baggy-peach-bird
 timeout: 5400
