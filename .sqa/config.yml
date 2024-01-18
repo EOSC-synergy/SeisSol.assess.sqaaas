@@ -15,58 +15,58 @@ sqa_criteria:
     repos:
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-azure-anteater.sh
-        container: qc.acc_crappy-sapphire-affenpinscher
+        - /usr/bin/env sh .sqa/script.tacky-olive-bonobo.sh
+        container: qc.acc_skinny-gamboge-bracke
   QC.Doc:
     repos:
       github.com/SeisSol/SeisSol find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-brass-oriole.sh
-        container: qc.doc_tacky-vermilion-buffalo
+        - /usr/bin/env sh .sqa/script.shaky-auburn-newfoundland.sh
+        container: qc.doc_squirrely-tan-tapir
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-russet-civet.sh
-        container: qc.doc_gummy-sangria-bulldog
+        - /usr/bin/env sh .sqa/script.thirsty-magnolia-stingray.sh
+        container: qc.doc_breezy-magenta-starfish
       github.com/SeisSol/SeisSol markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-purple-starfish.sh
-        container: qc.doc_gamy-russet-ladybird
+        - /usr/bin/env sh .sqa/script.pretty-ochre-stoat.sh
+        container: qc.doc_lanky-thistle-cichlid
       github.com/SeisSol/SeisSol restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-corn-warthog.sh
-        container: qc.doc_homey-sapphire-fish
+        - /usr/bin/env sh .sqa/script.greasy-thistle-hyena.sh
+        container: qc.doc_lousy-mustard-crane
   QC.Lic:
     repos:
       github.com/SeisSol/SeisSol licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-khaki-angelfish.sh
-        container: qc.lic_frumpy-brass-urchin
+        - /usr/bin/env sh .sqa/script.silly-silver-seal.sh
+        container: qc.lic_baggy-taupe-coral
   QC.Met:
     repos:
       github.com/SeisSol/SeisSol cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-dandelion-insect.sh
-        container: qc.met_geeky-periwinkle-fly
+        - /usr/bin/env sh .sqa/script.goopy-mustard-cichlid.sh
+        container: qc.met_wheezy-platinum-javanese
   QC.Sec:
     repos:
       github.com/SeisSol/SeisSol bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-purple-zorse.sh
-        container: qc.sec_pokey-taupe-lobster
+        - /usr/bin/env sh .sqa/script.tacky-wheat-newfoundland.sh
+        container: qc.sec_cloudy-saffron-bison
   QC.Sty:
     repos:
       github.com/SeisSol/SeisSol flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-fuchsia-albatross.sh
-        container: qc.sty_sickly-chocolate-quetzal
+        - /usr/bin/env sh .sqa/script.nerdy-rust-jackal.sh
+        container: qc.sty_cheeky-olivine-antelope
       github.com/SeisSol/SeisSol jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-saffron-hyena.sh
-        container: qc.sty_woozy-cinnabar-avocet
+        - /usr/bin/env sh .sqa/script.shaggy-dandelion-giraffe.sh
+        container: qc.sty_sleepy-firebrick-orangutan
   QC.Ver:
     repos:
       github.com/SeisSol/SeisSol get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-beige-seahorse.sh
-        container: qc.ver_woozy-violet-fly
+        - /usr/bin/env sh .sqa/script.shaggy-ecru-jellyfish.sh
+        container: qc.ver_jumpy-asparagus-pig
 timeout: 5400
