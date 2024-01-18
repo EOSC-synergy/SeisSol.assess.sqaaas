@@ -3,6 +3,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/seissol/seissol &&
-    flake8 .
+cd github.com/SeisSol/SeisSol &&
+    mdl --json .
 )

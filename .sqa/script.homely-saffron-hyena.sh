@@ -3,6 +3,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/seissol/seissol &&
-    cffconvert --validate
+cd github.com/SeisSol/SeisSol &&
+    jsonlint-cli "**/*.json"
 )
