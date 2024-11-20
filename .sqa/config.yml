@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/1.7.13
+      branch: main
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/SeisSol/SeisSol:
       branch: master
@@ -15,58 +15,72 @@ sqa_criteria:
     repos:
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-olive-bonobo.sh
-        container: qc.acc_skinny-gamboge-bracke
+        - /usr/bin/env sh .sqa/script.shaky-red-ray.sh
+        container: qc.acc_droopy-russet-dodo
   QC.Doc:
     repos:
       github.com/SeisSol/SeisSol find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-auburn-newfoundland.sh
-        container: qc.doc_squirrely-tan-tapir
+        - /usr/bin/env sh .sqa/script.skanky-puce-argentino.sh
+        container: qc.doc_crappy-blue-jaguar
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-magnolia-stingray.sh
-        container: qc.doc_breezy-magenta-starfish
+        - /usr/bin/env sh .sqa/script.frumpy-ochre-toucan.sh
+        container: qc.doc_flimsy-azure-oriole
       github.com/SeisSol/SeisSol markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-ochre-stoat.sh
-        container: qc.doc_lanky-thistle-cichlid
+        - /usr/bin/env sh .sqa/script.seedy-ecru-uguisu.sh
+        container: qc.doc_homely-khaki-ray
       github.com/SeisSol/SeisSol restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-thistle-hyena.sh
-        container: qc.doc_lousy-mustard-crane
+        - /usr/bin/env sh .sqa/script.sleazy-scarlet-dolphin.sh
+        container: qc.doc_stuffy-peach-lion
   QC.Lic:
     repos:
       github.com/SeisSol/SeisSol licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-silver-seal.sh
-        container: qc.lic_baggy-taupe-coral
+        - /usr/bin/env sh .sqa/script.freaky-tangerine-blue.sh
+        container: qc.lic_gummy-mustard-wallaby
   QC.Met:
     repos:
       github.com/SeisSol/SeisSol cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-mustard-cichlid.sh
-        container: qc.met_wheezy-platinum-javanese
+        - /usr/bin/env sh .sqa/script.pretty-sangria-catfish.sh
+        container: qc.met_surly-harlequin-ostrich
   QC.Sec:
     repos:
       github.com/SeisSol/SeisSol bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-wheat-newfoundland.sh
-        container: qc.sec_cloudy-saffron-bison
+        - /usr/bin/env sh .sqa/script.slaphappy-khaki-bandicoot.sh
+        container: qc.sec_bumpy-firebrick-balinese
   QC.Sty:
     repos:
       github.com/SeisSol/SeisSol flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-rust-jackal.sh
-        container: qc.sty_cheeky-olivine-antelope
+        - /usr/bin/env sh .sqa/script.stealthy-celadon-discus.sh
+        container: qc.sty_shaky-lilac-eel
+      github.com/SeisSol/SeisSol hadolint:
+        commands:
+        - /usr/bin/env sh .sqa/script.smelly-brass-sloth.sh
+        container: qc.sty_flaky-malachite-newfoundland
       github.com/SeisSol/SeisSol jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-dandelion-giraffe.sh
-        container: qc.sty_sleepy-firebrick-orangutan
+        - /usr/bin/env sh .sqa/script.seedy-pink-anteater.sh
+        container: qc.sty_shabby-rust-mau
+      github.com/SeisSol/SeisSol oclint:
+        commands:
+        - /usr/bin/env sh .sqa/script.lumpy-ultramarine-tamarin.sh
+        container: qc.sty_grumpy-cyan-quoll
+  QC.Uni:
+    repos:
+      github.com/SeisSol/SeisSol pytest:
+        commands:
+        - /usr/bin/env sh .sqa/script.geeky-razzmatazz-hamster.sh
+        container: qc.uni_smelly-mauve-chicken
   QC.Ver:
     repos:
       github.com/SeisSol/SeisSol get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-ecru-jellyfish.sh
-        container: qc.ver_jumpy-asparagus-pig
+        - /usr/bin/env sh .sqa/script.gamy-cream-whippet.sh
+        container: qc.ver_geeky-persimmon-peccary
 timeout: 5400
