@@ -4,83 +4,83 @@ config:
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: main
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
-    github.com/SeisSol/SeisSol:
+    github.com/seissol/seissol:
       branch: master
-      repo: https://github.com/SeisSol/SeisSol
+      repo: https://github.com/seissol/seissol
 environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
   QC.Acc:
     repos:
-      github.com/SeisSol/SeisSol git:
+      github.com/seissol/seissol git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-red-ray.sh
-        container: qc.acc_droopy-russet-dodo
+        - /usr/bin/env sh .sqa/script.dorky-puce-mandrill.sh
+        container: qc.acc_clammy-scarlet-buffalo
   QC.Doc:
     repos:
-      github.com/SeisSol/SeisSol find_doc_files.py:
+      github.com/seissol/seissol find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-puce-argentino.sh
-        container: qc.doc_crappy-blue-jaguar
-      github.com/SeisSol/SeisSol git:
+        - /usr/bin/env sh .sqa/script.hazy-pink-hound.sh
+        container: qc.doc_hilly-lavender-cheetah
+      github.com/seissol/seissol git:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-ochre-toucan.sh
-        container: qc.doc_flimsy-azure-oriole
-      github.com/SeisSol/SeisSol markdownlint:
+        - /usr/bin/env sh .sqa/script.pretty-silver-reindeer.sh
+        container: qc.doc_leaky-taupe-bordeaux
+      github.com/seissol/seissol markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-ecru-uguisu.sh
-        container: qc.doc_homely-khaki-ray
-      github.com/SeisSol/SeisSol restructuredtext-lint:
+        - /usr/bin/env sh .sqa/script.pokey-plum-reindeer.sh
+        container: qc.doc_cozy-sangria-manatee
+      github.com/seissol/seissol restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-scarlet-dolphin.sh
-        container: qc.doc_stuffy-peach-lion
+        - /usr/bin/env sh .sqa/script.flabby-linen-balinese.sh
+        container: qc.doc_nerdy-purple-fossa
   QC.Lic:
     repos:
-      github.com/SeisSol/SeisSol licensee:
+      github.com/seissol/seissol licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-tangerine-blue.sh
-        container: qc.lic_gummy-mustard-wallaby
+        - /usr/bin/env sh .sqa/script.nippy-eggplant-cheetah.sh
+        container: qc.lic_leaky-saffron-kakapo
   QC.Met:
     repos:
-      github.com/SeisSol/SeisSol cff-converter-python:
+      github.com/seissol/seissol cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-sangria-catfish.sh
-        container: qc.met_surly-harlequin-ostrich
+        - /usr/bin/env sh .sqa/script.lovely-eggplant-olm.sh
+        container: qc.met_pasty-viridian-owl
   QC.Sec:
     repos:
-      github.com/SeisSol/SeisSol bandit:
+      github.com/seissol/seissol bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-khaki-bandicoot.sh
-        container: qc.sec_bumpy-firebrick-balinese
+        - /usr/bin/env sh .sqa/script.gummy-white-mandrill.sh
+        container: qc.sec_tacky-alizarin-wallaby
   QC.Sty:
     repos:
-      github.com/SeisSol/SeisSol flake8:
+      github.com/seissol/seissol flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-celadon-discus.sh
-        container: qc.sty_shaky-lilac-eel
-      github.com/SeisSol/SeisSol hadolint:
+        - /usr/bin/env sh .sqa/script.smelly-lavender-whale.sh
+        container: qc.sty_hazy-orchid-fowl
+      github.com/seissol/seissol hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-brass-sloth.sh
-        container: qc.sty_flaky-malachite-newfoundland
-      github.com/SeisSol/SeisSol jsonlint:
+        - /usr/bin/env sh .sqa/script.blurry-salmon-manatee.sh
+        container: qc.sty_zippy-rose-kingfisher
+      github.com/seissol/seissol jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-pink-anteater.sh
-        container: qc.sty_shabby-rust-mau
-      github.com/SeisSol/SeisSol oclint:
+        - /usr/bin/env sh .sqa/script.skanky-ivory-cow.sh
+        container: qc.sty_greasy-dandelion-slug
+      github.com/seissol/seissol oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-ultramarine-tamarin.sh
-        container: qc.sty_grumpy-cyan-quoll
+        - /usr/bin/env sh .sqa/script.ready-lavender-booby.sh
+        container: qc.sty_smelly-ecru-ragdoll
   QC.Uni:
     repos:
-      github.com/SeisSol/SeisSol pytest:
+      github.com/seissol/seissol pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-razzmatazz-hamster.sh
-        container: qc.uni_smelly-mauve-chicken
+        - /usr/bin/env sh .sqa/script.dorky-carmine-cow.sh
+        container: qc.uni_wheezy-cobalt-tuatara
   QC.Ver:
     repos:
-      github.com/SeisSol/SeisSol get_git_tags.py:
+      github.com/seissol/seissol get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-cream-whippet.sh
-        container: qc.ver_geeky-persimmon-peccary
+        - /usr/bin/env sh .sqa/script.nerdy-salmon-bird.sh
+        container: qc.ver_snoopy-taupe-dodo
 timeout: 5400

@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/SeisSol/SeisSol &&
-    find_doc_files.py --file_type all
+cd github.com/seissol/seissol &&
+    get_git_tags.py
 )

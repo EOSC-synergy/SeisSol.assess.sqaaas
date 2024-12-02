@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/SeisSol/SeisSol &&
-    pytest  --json-report  --json-report-indent 4
+cd github.com/seissol/seissol &&
+    bandit -f json --quiet  --confidence-level high --severity-level high --recursive  .
 )
