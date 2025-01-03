@@ -15,72 +15,72 @@ sqa_criteria:
     repos:
       github.com/seissol/seissol git:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-alizarin-scorpion.sh
-        container: qc.acc_paltry-pink-spider
+        - /usr/bin/env sh .sqa/script.scanty-linen-anteater.sh
+        container: qc.acc_squirrely-pear-giraffe
   QC.Doc:
     repos:
       github.com/seissol/seissol find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-olivine-slug.sh
-        container: qc.doc_silly-violet-mouse
+        - /usr/bin/env sh .sqa/script.crappy-turquoise-newfoundland.sh
+        container: qc.doc_woolly-aquamarine-mouse
       github.com/seissol/seissol git:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-emerald-retriever.sh
-        container: qc.doc_hasty-crimson-abyssinian
+        - /usr/bin/env sh .sqa/script.nippy-ruby-angelfish.sh
+        container: qc.doc_pasty-lavender-squirt
       github.com/seissol/seissol markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-sapphire-gharial.sh
-        container: qc.doc_homey-puce-rattlesnake
+        - /usr/bin/env sh .sqa/script.clammy-lemon-spaniel.sh
+        container: qc.doc_wheezy-sapphire-retriever
       github.com/seissol/seissol restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-salmon-coyote.sh
-        container: qc.doc_cloudy-seashell-hummingbird
+        - /usr/bin/env sh .sqa/script.seedy-celadon-gharial.sh
+        container: qc.doc_scummy-copper-owl
   QC.Lic:
     repos:
       github.com/seissol/seissol licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-lime-bat.sh
-        container: qc.lic_lousy-bistre-gharial
+        - /usr/bin/env sh .sqa/script.seedy-cornflower-iguana.sh
+        container: qc.lic_snippy-mustard-harrier
   QC.Met:
     repos:
       github.com/seissol/seissol cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-tangerine-ocelot.sh
-        container: qc.met_gimpy-saffron-falcon
+        - /usr/bin/env sh .sqa/script.scaly-orange-hamster.sh
+        container: qc.met_scaly-wheat-salamander
   QC.Sec:
     repos:
       github.com/seissol/seissol bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-coral-oriole.sh
-        container: qc.sec_snoopy-tomato-barnacle
+        - /usr/bin/env sh .sqa/script.homely-zucchini-barb.sh
+        container: qc.sec_tacky-corn-gopher
   QC.Sty:
     repos:
       github.com/seissol/seissol flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-gold-balinese.sh
-        container: qc.sty_stinky-xanthic-dog
+        - /usr/bin/env sh .sqa/script.snippy-violet-forest.sh
+        container: qc.sty_squirrely-champagne-impala
       github.com/seissol/seissol hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-chocolate-penguin.sh
-        container: qc.sty_hazy-amethyst-coral
+        - /usr/bin/env sh .sqa/script.snoopy-cinnamon-dog.sh
+        container: qc.sty_boozy-cobalt-paradise
       github.com/seissol/seissol jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-heliotrope-hippopotamus.sh
-        container: qc.sty_slimy-magenta-anteater
+        - /usr/bin/env sh .sqa/script.pretty-maroon-catfish.sh
+        container: qc.sty_droopy-scarlet-skunk
       github.com/seissol/seissol oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-salmon-dachsbracke.sh
-        container: qc.sty_scummy-lilac-serval
+        - /usr/bin/env sh .sqa/script.lumpy-dandelion-giraffe.sh
+        container: qc.sty_breezy-thistle-foxhound
   QC.Uni:
     repos:
       github.com/seissol/seissol pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-puce-avocet.sh
-        container: qc.uni_gamy-linen-centipede
+        - /usr/bin/env sh .sqa/script.sunny-xanthic-discus.sh
+        container: qc.uni_crabby-turquoise-otter
   QC.Ver:
     repos:
       github.com/seissol/seissol get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-firebrick-bloodhound.sh
-        container: qc.ver_sickly-cinnabar-donkey
+        - /usr/bin/env sh .sqa/script.hilly-blue-moth.sh
+        container: qc.ver_squeaky-lavender-gar
 timeout: 5400
