@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd github.com/seissol/seissol &&
-    hadolint .ci/gha-gpu-amd/Dockerfile .ci/gha-gpu-nv/Dockerfile .ci/gha-gpu-nvhpc/Dockerfile .ci/gha-cpu/Dockerfile .ci/gha-gpu-intel/Dockerfile --failure-threshold error
+cd github.com/SeisSol/SeisSol &&
+    find_doc_files.py --file_type all
 )
