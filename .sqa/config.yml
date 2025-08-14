@@ -15,72 +15,72 @@ sqa_criteria:
     repos:
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-charcoal-mule.sh
-        container: qc.acc_chewy-teal-collie
+        - /usr/bin/env sh .sqa/script.silly-olive-frog.sh
+        container: qc.acc_craggy-russet-affenpinscher
   QC.Doc:
     repos:
       github.com/SeisSol/SeisSol find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-cyan-neanderthal.sh
-        container: qc.doc_snappy-periwinkle-macaw
+        - /usr/bin/env sh .sqa/script.snoopy-brown-grouse.sh
+        container: qc.doc_sickly-mauve-collie
       github.com/SeisSol/SeisSol git:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-brown-woodlouse.sh
-        container: qc.doc_thirsty-purple-warthog
+        - /usr/bin/env sh .sqa/script.cheeky-coral-akita.sh
+        container: qc.doc_zippy-denim-oyster
       github.com/SeisSol/SeisSol markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-lavender-maltese.sh
-        container: qc.doc_baggy-cerulean-wolverine
+        - /usr/bin/env sh .sqa/script.surly-tan-gorilla.sh
+        container: qc.doc_skanky-burgundy-uguisu
       github.com/SeisSol/SeisSol restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-taupe-coati.sh
-        container: qc.doc_grumpy-orchid-robin
+        - /usr/bin/env sh .sqa/script.trippy-myrtle-discus.sh
+        container: qc.doc_flabby-pear-moose
   QC.Lic:
     repos:
       github.com/SeisSol/SeisSol licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-lavender-flamingo.sh
-        container: qc.lic_flimsy-burgundy-terrier
+        - /usr/bin/env sh .sqa/script.hilly-copper-giraffe.sh
+        container: qc.lic_cheeky-platinum-dog
   QC.Met:
     repos:
       github.com/SeisSol/SeisSol cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-khaki-fish.sh
-        container: qc.met_muzzy-ruby-bordeaux
+        - /usr/bin/env sh .sqa/script.scanty-champagne-woodpecker.sh
+        container: qc.met_boozy-red-dingo
   QC.Sec:
     repos:
       github.com/SeisSol/SeisSol bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-cardinal-zorse.sh
-        container: qc.sec_randy-cardinal-hyrax
+        - /usr/bin/env sh .sqa/script.woozy-rust-hedgehog.sh
+        container: qc.sec_tasty-eggplant-raccoon
   QC.Sty:
     repos:
       github.com/SeisSol/SeisSol flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-chartreuse-lemur.sh
-        container: qc.sty_snazzy-firebrick-wombat
+        - /usr/bin/env sh .sqa/script.pretty-thistle-coati.sh
+        container: qc.sty_snappy-salmon-mongoose
       github.com/SeisSol/SeisSol hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-purple-dollar.sh
-        container: qc.sty_slimy-fuchsia-maltese
+        - /usr/bin/env sh .sqa/script.freaky-dandelion-ladybird.sh
+        container: qc.sty_gimpy-khaki-frog
       github.com/SeisSol/SeisSol jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-maroon-sheep.sh
-        container: qc.sty_squirrely-malachite-shrimp
+        - /usr/bin/env sh .sqa/script.goopy-charcoal-wrasse.sh
+        container: qc.sty_skimpy-saffron-chimpanzee
       github.com/SeisSol/SeisSol oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-seashell-gopher.sh
-        container: qc.sty_seedy-cinnabar-collie
+        - /usr/bin/env sh .sqa/script.whiny-khaki-grouse.sh
+        container: qc.sty_baggy-buff-tapir
   QC.Uni:
     repos:
       github.com/SeisSol/SeisSol pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-aqua-caiman.sh
-        container: qc.uni_wimpy-orange-koala
+        - /usr/bin/env sh .sqa/script.wheezy-peach-hyrax.sh
+        container: qc.uni_gloppy-chartreuse-cat
   QC.Ver:
     repos:
       github.com/SeisSol/SeisSol get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-copper-salamander.sh
-        container: qc.ver_queasy-saffron-wolfhound
+        - /usr/bin/env sh .sqa/script.snappy-magenta-goat.sh
+        container: qc.ver_clammy-olivine-albatross
 timeout: 5400

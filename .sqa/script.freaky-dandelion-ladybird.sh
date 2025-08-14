@@ -5,5 +5,5 @@
 
 (
 cd github.com/SeisSol/SeisSol &&
-    hadolint .ci/gha-gpu-nv/Dockerfile .ci/gha-gpu-amd/Dockerfile .ci/gha-gpu-nvhpc/Dockerfile .ci/gha-cpu/Dockerfile .ci/gha-gpu-intel/Dockerfile --failure-threshold error
+    hadolint .ci/gha-gpu-intel/Dockerfile .ci/gha-gpu-nvhpc/Dockerfile .ci/gha-cpu/Dockerfile .ci/gha-gpu-nv/Dockerfile .ci/gha-gpu-amd/Dockerfile --failure-threshold error
 )
