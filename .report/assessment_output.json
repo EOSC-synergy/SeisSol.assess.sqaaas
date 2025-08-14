@@ -3,7 +3,7 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/SeisSol.assess.sqaaas/master/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/SeisSol.assess.sqaaas/master/.report/assessment_output.json",
-        "timestamp": 1755177872.0374966
+        "timestamp": 1755177990.6580465
     },
     "repository": [
         {
@@ -5119,24 +5119,24 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "id": "689de391b8643e0f731b4e9a",
-                "entityId": "XGi4N6eDQI29S_IpLg-xKA",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/XGi4N6eDQI29S_IpLg-xKA",
-                "createdAt": "2025-08-14T13:24:33.673269378Z",
+                "id": "689de4089d03744a89c5d76b",
+                "entityId": "V0k4u0a-QWyc95rZr1DV9w",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/V0k4u0a-QWyc95rZr1DV9w",
+                "createdAt": "2025-08-14T13:26:32.591771288Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "IDUsZJpNQPuiJpPwmJ8iJw",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/XGi4N6eDQI29S_IpLg-xKA/image",
+                "image": "https://api.eu.badgr.io/public/assertions/V0k4u0a-QWyc95rZr1DV9w/image",
                 "recipient": {
-                    "identity": "sha256$54342d385868d89c8fd71bcabcd622505b4335cf8a0c1a39cdb1a6a185dacb27",
+                    "identity": "sha256$eecdd41b0d32829011543aa640e990b12cb47a4f0bd2a4c10ee9fcf1c99bc557",
                     "hashed": true,
                     "type": "url",
-                    "salt": "wX0OivUKinjiDG8W",
+                    "salt": "bRfwLN316nQQ8ESj",
                     "plaintextIdentity": "https://github.com/SeisSol/SeisSol"
                 },
-                "issuedOn": "2025-08-14T13:24:33.673278028Z",
+                "issuedOn": "2025-08-14T13:26:32.591774487Z",
                 "narrative": "Repository 'https://github.com/SeisSol/SeisSol' at version 'd52dcead99f66356721b9f167f4b72d9418e3bcc' passed successfully the following quality criteria: QC.Acc QC.Lic QC.Ver QC.Met QC.Sec QC.Doc",
                 "evidence": [
                     {
@@ -5150,7 +5150,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/XGi4N6eDQI29S_IpLg-xKA"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/V0k4u0a-QWyc95rZr1DV9w"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw"
@@ -5162,11 +5162,11 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-XGi4N6eDQI29S_IpLg-xKA.png",
+                "imagePath": "uploads/badges/assertion-V0k4u0a-QWyc95rZr1DV9w.png",
                 "ob3AwardProperties": null
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/XGi4N6eDQI29S_IpLg-xKA?identity__url=https%3A//github.com/EOSC-synergy/SeisSol.assess.sqaaas/commit/43c8aa4d17d6fedcf9d5b61aac440b49eb1a9851\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/XGi4N6eDQI29S_IpLg-xKA/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FXGi4N6eDQI29S_IpLg-xKA?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2FSeisSol.assess.sqaaas%2Fcommit%2F43c8aa4d17d6fedcf9d5b61aac440b49eb1a9851&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2FSeisSol.assess.sqaaas%2Fcommit%2F43c8aa4d17d6fedcf9d5b61aac440b49eb1a9851"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/V0k4u0a-QWyc95rZr1DV9w?identity__url=https%3A//github.com/EOSC-synergy/SeisSol.assess.sqaaas/commit/43c8aa4d17d6fedcf9d5b61aac440b49eb1a9851\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/V0k4u0a-QWyc95rZr1DV9w/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FV0k4u0a-QWyc95rZr1DV9w?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2FSeisSol.assess.sqaaas%2Fcommit%2F43c8aa4d17d6fedcf9d5b61aac440b49eb1a9851&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2FSeisSol.assess.sqaaas%2Fcommit%2F43c8aa4d17d6fedcf9d5b61aac440b49eb1a9851"
         }
     }
 }
